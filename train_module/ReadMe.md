@@ -39,8 +39,6 @@ Note: All images come from this MIT self-driving car course and are licensed und
 
 
 ## Weights
-[pth](https://drive.google.com/file/d/1M-hP8YiNSJ-cW4kcN12XGqIwpb_AU-EJ/view?usp=sharing)
+[PyTorch version .pth](https://drive.google.com/file/d/1M-hP8YiNSJ-cW4kcN12XGqIwpb_AU-EJ/view?usp=sharing)
 
-Torch Script version
-
-[pt](https://drive.google.com/file/d/1fdGC-SDkp-kBz2C_qfGGmTXh8K_RtvqE/view?usp=sharing)
+[Torch Script version .pt](https://drive.google.com/file/d/1fdGC-SDkp-kBz2C_qfGGmTXh8K_RtvqE/view?usp=sharing)
