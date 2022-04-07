@@ -1,5 +1,20 @@
 # Traffic-Light-Classifier
 
+You can edit the hyper parameters from the "train_config.yaml" file
+
+You can follow the step below for training
+```bash
+python train.py
+```
+Script returns precision recall etc. params according to the results produced from test data 
+```bash
+python test_model.py
+```
+for single image inferance 
+```bash
+python single_image_inferance.py --img [IMG_PATH]
+```
+
 ## Model
 
 Pre-trained ResNet18 network is used. The core idea of ResNet is introducing a so-called “identity shortcut connection” that skips one or more layers. Residual Block: 
@@ -14,5 +29,18 @@ This traffic light dataset consists of 1440 number of color images in 2 categori
 
 Note: All images come from this MIT self-driving car course and are licensed under a 9Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-[training results]
-[weights]
+## Traning
+
+![plot](https://user-images.githubusercontent.com/37477289/162275223-83e7adee-cd9a-4916-81ee-97fbe2512de8.png)
+
+| Precision  | Precision | Recall | f1_score | test_acc | avg_inferance_time (sec) |
+| ---------- | ----------|------ | --------- | -------- |------------------------- |
+| ResNet18 | 0.967 | 0.972  | 0.969    | 0.961    | 0.0023 |
+
+
+## Weights
+[.pth](https://drive.google.com/file/d/1M-hP8YiNSJ-cW4kcN12XGqIwpb_AU-EJ/view?usp=sharing)
+
+Torch Script version
+
+[.pt](https://drive.google.com/file/d/1fdGC-SDkp-kBz2C_qfGGmTXh8K_RtvqE/view?usp=sharing)
