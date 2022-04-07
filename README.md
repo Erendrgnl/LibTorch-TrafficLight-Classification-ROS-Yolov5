@@ -18,7 +18,6 @@ for weights and referance codes please visit link below
 
 [yolov4 paper summary](https://towardsdatascience.com/yolo-v4-optimal-speed-accuracy-for-object-detection-79896ed47b50)
 
-[RosPackage](traffic_light_classifier/ReadMe.md)
 
 # Traffic-Light-Classifier
 
