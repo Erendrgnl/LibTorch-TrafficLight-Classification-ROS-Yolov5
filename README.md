@@ -1,17 +1,19 @@
 # TrafficLight-Classification-ROS-Yolov5
 TrafficLight-Classification-ROS-Yolov5
 
-#How to Use
+# How to Use
 
-#YoloV5 libtorch version 
+# Object Detection
+## YoloV5  
 [github repo]
 [weights]
 
-#Train ResNet18
+# Traffic-Light-Classifier
+## Model
 [Dataset]
 [training results]
 [weights]
 
-#Rviz Visualization
+# Rviz Visualization
 [test_video]
 [output_video]
