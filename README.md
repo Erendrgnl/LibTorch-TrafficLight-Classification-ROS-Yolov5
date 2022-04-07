@@ -14,5 +14,5 @@ It was considered to use state of art models as a classifier. Like EfficientNet,
 
 
 # Rviz Visualization
-[test_video]
+[test_video] (https://drive.google.com/file/d/1L5DMnn-yT53Z-xZbbVWHSwH7B8AAZTc-/view?usp=sharing)
 [output_video]
