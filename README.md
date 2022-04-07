@@ -8,7 +8,7 @@ Please change libTorch Path in Cmake to compile correctly.
     #Line 18 in CMakeLists.txt
     set(CMAKE_PREFIX_PATH "/home/eren/Documents/libtorch_cu11.1/share/cmake/Torch/")
 
-"traffic_light_classification" is a ros package. Node aims to publish the results for each traffic light which is detected from yolov5.
+"traffic_light_classification" is a ros package. "data_handler.cpp" read video from directory and publish as a ros node which name is /data_handler. "classifier.cpp" first detect objects if object is a traffic light call resNet18 model to classify traffic light color. Then draws bbox on detected area and publish image on /detection_result node.
 
 ## YoloV5  
 With the original authors work on YOLO coming to a standstill, YOLOv4 was released by Alexey Bochoknovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. The paper was titled YOLOv4: Optimal Speed and Accuracy of Object Detection. Shortly after the release of YOLOv4 Glenn Jocher introduced YOLOv5 using the Pytorch framework.
