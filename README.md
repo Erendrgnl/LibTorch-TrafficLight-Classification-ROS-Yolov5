@@ -13,7 +13,8 @@ Please change libTorch Path in Cmake to compile correctly.
 ## YoloV5  
 With the original authors work on YOLO coming to a standstill, YOLOv4 was released by Alexey Bochoknovskiy, Chien-Yao Wang, and Hong-Yuan Mark Liao. The paper was titled YOLOv4: Optimal Speed and Accuracy of Object Detection. Shortly after the release of YOLOv4 Glenn Jocher introduced YOLOv5 using the Pytorch framework.
 
-for weights and referance codes please visit link below
+for weight and referance codes please visit link below
+
 [YOLOv5-LibTorch](https://github.com/Nebula4869/YOLOv5-LibTorch.git)
 
 [yolov4 paper summary](https://towardsdatascience.com/yolo-v4-optimal-speed-accuracy-for-object-detection-79896ed47b50)
