@@ -1,9 +1,13 @@
 # TrafficLight-Classification-ROS-Yolov5
 TrafficLight-Classification-ROS-Yolov5
 
-# How to Use
+# Object Detection ROS Package
 
-# Object Detection
+Please change libTorch Path in Cmake to compile correctly.
+
+    #Line 18 in CMakeLists.txt
+    set(CMAKE_PREFIX_PATH "/home/eren/Documents/libtorch_cu11.1/share/cmake/Torch/")
+
 ## YoloV5  
 [github repo]
 [weights]
