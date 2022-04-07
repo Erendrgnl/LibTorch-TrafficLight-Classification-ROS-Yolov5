@@ -1,0 +1,15 @@
+device : "cuda"
+batch_size: 64
+epochs: 20
+resize : 64
+num_class : 2
+
+#optimizer
+optimizer : "adam"
+learning_rate: 0.0003
+learning_momentum: 0.9
+weight_decay: 0.0001
+
+#scheduler
+learning_decay_gamma : 0.7
+step_size : 1
